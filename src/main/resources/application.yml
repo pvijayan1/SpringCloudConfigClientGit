@@ -1,0 +1,16 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: ClientApp
+  cloud:
+    config:
+      uri: http://localhost:8888      
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        
+        
+  
